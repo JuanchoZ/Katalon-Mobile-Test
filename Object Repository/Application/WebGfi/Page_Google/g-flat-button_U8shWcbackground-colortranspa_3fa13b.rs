@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>g-flat-button_U8shWcbackground-colortranspa_3fa13b</name>
+   <tag></tag>
+   <elementGuidId>a9dfeae0-573d-4f01-8483-3da7694d061b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>g-flat-button.U8shWc.Vy8nid.boCbHc</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Busca ahora y encuentra información actualizada antes de ir'])[1]/following::g-flat-button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>g-flat-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>jsname</name>
+      <type>Main</type>
+      <value>ZnuYW</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>jsaction</name>
+      <type>Main</type>
+      <value>trigger.kI1s8</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>U8shWc Vy8nid boCbHc</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ved</name>
+      <type>Main</type>
+      <value>0ahUKEwjBkuec3P7rAhVEh-AKHcTCDjwQj20IFw</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>.U8shWc{background-color:transparent;border:none;border-radius:8px;border-radius:8px;box-sizing:border-box;cursor:pointer;display:inline-block;font-size:14px;font-weight:500;height:36px;line-height:16px;padding:10px 8px;margin:0 4px;min-width:88px;outline:none;position:relative;text-align:center;text-decoration:none !important;-webkit-user-select:none;white-space:nowrap}.U8shWc.boCbHc{text-transform:uppercase}.U8shWc:disabled,.U8shWc[disabled]:not([disabled=false]){pointer-events:none}.U8shWc.fSXIc{min-width:64px}.U8shWc.Vy8nid{color:rgba(0,0,0,.87)}.Vy8nid:hover{background-color:rgba(153,153,153,.2)}.Vy8nid:focus{background-color:rgba(153,153,153,.2)}.Vy8nid:active{background-color:rgba(153,153,153,.4)}.U8shWc.Vy8nid:disabled,.U8shWc.Vy8nid[disabled]:not([disabled=false]){color:rgba(0,0,0,.26) !important}NO</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;QVCmK&quot;]/body[1]/div[@class=&quot;Fgvgjc&quot;]/div[2]/div[1]/mobile-promo[1]/div[@class=&quot;hww53CMqxtL__mobile-promo hww53CMqxtL__visible&quot;]/div[1]/div[1]/div[@class=&quot;KaTqAd&quot;]/g-flat-button[@class=&quot;U8shWc Vy8nid boCbHc&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Busca ahora y encuentra información actualizada antes de ir'])[1]/following::g-flat-button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apoya al comercio local y descubre tiendas cerca de ti'])[1]/following::g-flat-button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BUSCA AHORA'])[1]/preceding::g-flat-button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NO']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//g-flat-button</value>
+   </webElementXpaths>
+</WebElementEntity>
