@@ -12,18 +12,19 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+//import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
 'Get full directory\'s path of android application'
-def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
-
 Mobile.startApplication('C:\\Users\\jmagdaleno\\Katalon Studio\\Test\\androidapp\\APIDemos.apk', true)
 
 Mobile.tap(findTestObject('New Record/android.widget.Button - OK'), 10)
 
 Mobile.verifyElementText(findTestObject('New Record/android.widget.TextView - API Demos'), 'API Demos')
+
+Mobile.takeScreenshot('Evidencias/API Demos.jpg')
 
 Mobile.closeApplication()
 
