@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Object Repository/Application/WebGfi/Page_Login - My
 
 WebUI.takeScreenshot('Evidencias/Correo Erroneo.jpg')
 
+WebUI.takeElementScreenshot('Evidencias/Correo ErroneoElemento.jpg',findTestObject('Object Repository/Application/WebGfi/Page_Login - My Store/div_There is 1 errorInvalid email address'))
+
 WebUI.verifyElementInViewport(findTestObject('Object Repository/Application/WebGfi/Page_Login - My Store/div_There is 1 errorInvalid email address'), 
     0)
 
