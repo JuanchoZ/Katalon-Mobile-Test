@@ -20,9 +20,11 @@ import org.openqa.selenium.Keys as Keys
 'Get full directory\'s path of android application'
 Mobile.startApplication('C:\\Users\\jmagdaleno\\Katalon Studio\\Test\\androidapp\\APIDemos.apk', true)
 
+Mobile.takeScreenshot('Evidencias/App inicio.jpg')
+
 Mobile.tap(findTestObject('New Record/android.widget.Button - OK'), 10)
 
-Mobile.verifyElementText(findTestObject('New Record/android.widget.TextView - API Demos'), 'API Demos')
+Mobile.verifyElementText(findTestObject('New Record/android.widget.TextView - API Demos'))
 
 Mobile.takeScreenshot('Evidencias/API Demos.jpg')
 

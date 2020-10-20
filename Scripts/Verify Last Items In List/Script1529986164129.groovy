@@ -15,13 +15,19 @@ def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunCo
 
 Mobile.startApplication(appPath, false)
 
+Mobile.takeScreenshot('Evidencias/API Demos Last Item.jpg')
+
 Mobile.comment('And he navigates the application to Graphics form')
 
 Mobile.tap(findTestObject('Application/android.widget.TextView - Graphics'), GlobalVariable.G_Timeout)
 
+Mobile.takeScreenshot('Evidencias/API Demo Graphics Menu.jpg')
+
 Mobile.comment('When he scroll to Xfermodes text')
 
 Mobile.scrollToText('Xfermodes')
+
+Mobile.takeScreenshot('Evidencias/API Demo Xfermodes.jpg')
 
 Mobile.comment('Then the current screen should show Xfermodes text after scrolling')
 

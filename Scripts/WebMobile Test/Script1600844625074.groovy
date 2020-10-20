@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
+WebUI.takeScreenshot('Evidencias/Pagina de Prueba.jpg')
+
 WebUI.click(findTestObject('Object Repository/Application/WebGfi/Page_My Store/a_Sign in'))
+
+WebUI.takeScreenshot('Evidencias/Sign in.jpg')
 
 WebUI.setText(findTestObject('Object Repository/Application/WebGfi/Page_Login - My Store/input_Email address_email'), 'juanmag4')
 

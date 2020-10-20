@@ -23,11 +23,17 @@ def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunCo
 
 Mobile.startApplication(appPath, false)
 
+Mobile.takeScreenshot('Evidencias/API Demo Correct Alarm.jpg')
+
 Mobile.comment('And he navigates the application to Activity form')
 
 Mobile.tap(findTestObject('Application/android.widget.TextView - App'), 10)
 
+Mobile.takeScreenshot('Evidencias/API Demo App.jpg')
+
 Mobile.tap(findTestObject('Application/App/android.widget.TextView-Activity'), 10)
+
+Mobile.takeScreenshot('Evidencias/API Demo Correct Activity.jpg')
 
 Mobile.comment('When he taps on the Custom Dialog button')
 
@@ -38,6 +44,8 @@ def message = Mobile.getText(findTestObject('Application/App/Activity/Custom Dia
     10)
 
 Mobile.comment('Then the correct dialog message should be displayed')
+
+Mobile.takeScreenshot('Evidencias/API Demo CustomDialog.jpg')
 
 Mobile.verifyEqual(message, 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.')
 
